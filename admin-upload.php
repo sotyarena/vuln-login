@@ -69,7 +69,7 @@ if(!isset($_SESSION['uname'])){
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>Impact<span>.</span></h1>
+        <h1>Secure?<span>.</span></h1>
       </a>
       <nav id="navbar" class="navbar">
         <ul>
@@ -96,7 +96,6 @@ if(!isset($_SESSION['uname'])){
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
-              <h2>File Upload Bypass 1</h2>
             </div>
           </div>
         </div>
@@ -105,7 +104,7 @@ if(!isset($_SESSION['uname'])){
         <div class="container">
           <ol>
             <li><a href="admin-home.php">Home</a></li>
-            <li>Sample Inner Page</li>
+            <li>File Upload Vulnerability 1</li>
           </ol>
         </div>
       </nav>
@@ -137,9 +136,9 @@ if(!isset($_SESSION['uname'])){
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span>Impact</span>
+            <span>Secure?</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>Security is not a product, but a process. The more you concern about it, the more secure your system will be.</p>
           <div class="social-links d-flex mt-4">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -187,7 +186,7 @@ if(!isset($_SESSION['uname'])){
 
     <div class="container mt-4">
       <div class="copyright">
-        &copy; Copyright <strong><span>Impact</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Secure?</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
