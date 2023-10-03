@@ -76,7 +76,8 @@ if(!isset($_SESSION['uname'])){
           <li><a href="admin-home.php">Home</a></li>
           <li><a href="admin-upload.php">Upload</a></li>
           <li><a href="admin-upload2.php">Upload 2</a></li>
-	  <li><a href="admin-upload4.php">Upload 3</a></li>
+          <li><a href="admin-upload4.php">Upload 3</a></li>
+          <li><a href="sqlinject.php?id=1">SQL Injection</a></li>
         </ul>
       </nav><!-- .navbar -->
 

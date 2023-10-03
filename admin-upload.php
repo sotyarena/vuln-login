@@ -1,6 +1,6 @@
 <?php
 include "config.php";
-include "login.php";
+//include "login.php";
 
 // Check user login or not
 if(!isset($_SESSION['uname'])){
@@ -77,6 +77,7 @@ if(!isset($_SESSION['uname'])){
           <li><a href="admin-upload.php">Upload</a></li>
           <li><a href="admin-upload2.php">Upload 2</a></li>
           <li><a href="admin-upload4.php">Upload 3</a></li>
+          <li><a href="sqlinject.php?id=1">SQL Injection</a></li>
         </ul>
       </nav><!-- .navbar -->
 

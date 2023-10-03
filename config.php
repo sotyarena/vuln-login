@@ -1,8 +1,8 @@
 <?php
 session_start();
 $host = "localhost"; /* Host name */
-$user = "webadmin"; /* User */
-$password = "webadmin"; /* Password */
+$user = "root"; /* User */
+$password = ""; /* Password */
 $dbname = "myweb1"; /* Database name */
 
 $con = mysqli_connect($host, $user, $password,$dbname);

@@ -1,6 +1,7 @@
 <?php
+//error_reporting(0);
 include "config.php";
-include "login.php";
+//include "login.php";
 //include "low.php";
 
 // Check user login or not
@@ -28,10 +29,10 @@ if( isset( $_POST[ 'Submit' ]  ) ) {
         $target = str_replace( array_keys( $substitutions ), $substitutions, $target );
 
         // Determine OS and execute the ping command.
-        $cmd = shell_exec( 'ping  -c 4 ' . $target );
+        $cmd = shell_exec( 'ping ' . $target );
 
         // Feedback for the end user
-        $html .= "<pre>{$cmd}</pre>";
+        $kotak = "<pre>{$cmd}</pre>";
 }
 
 ?>
@@ -105,6 +106,7 @@ if( isset( $_POST[ 'Submit' ]  ) ) {
           <li><a href="admin-upload.php">Upload</a></li>
           <li><a href="admin-upload2.php">Upload 2</a></li>
           <li><a href="admin-upload4.php">Upload 3</a></li>
+          <li><a href="sqlinject.php?id=1">SQL Injection</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -155,10 +157,9 @@ if( isset( $_POST[ 'Submit' ]  ) ) {
                               <input type="text" name="ip" size="30">
                               <input type="submit" name="Submit" value="Submit">
                       </p>
-                <p>
-                <?php echo $html ?>
-                </p>
+              </form>
       </div>
+      <?php echo $kotak ?>
    </div>
         </p>
 
